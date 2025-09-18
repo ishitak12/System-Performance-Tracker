@@ -24,4 +24,8 @@ cd system-health-monitor
 # Install dependencies
 pip install -r requirements.txt
 
+python monitor.py
+
+streamlit run dashboard.py
+
 
